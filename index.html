@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Origen del Viernes Negro - Multimedia</title>
+    <link rel="stylesheet" href="estilos.css">
+</head>
+<body>
+
+    <header>
+        <h1>El Origen Multimedia del Viernes Negro 🛍️</h1>
+        <p>Una mirada a la historia del "Black Friday" con ejemplos de contenido web y local.</p>
+    </header>
+
+    <main>
+        <section id="introduccion">
+            <h2>¿Qué es el Viernes Negro?</h2>
+            <p>Es un día que se celebra el día siguiente al Día de Acción de Gracias en Estados Unidos, marcando tradicionalmente el inicio de la temporada de compras navideñas con grandes descuentos. Su popularidad en **supermercados** y tiendas minoristas ha crecido globalmente.</p>
+        </section>
+
+        <section id="imagenes">
+            <h2>📸 Imágenes: Historia Visual</h2>
+            
+            <div class="media-container">
+                <h3>Imagen desde la Web (URL)</h3>
+                <p>Muestra el ambiente de las compras masivas en la actualidad.</p>
+                <img src="https://20627419.fs1.hubspotusercontent-na1.net/hub/20627419/hubfs/The%20Hustle/Assets/Images/735842063-crowd.webp?width=636&height=477&name=735842063-crowd.webp"  alt="Personas comprando en Black Friday" class="media-item">
+                <p class="etiqueta-explicacion">Usamos: **`&lt;img src="URL COMPLETA"&gt;`**</p>
+            </div>
+            
+            <div class="media-container">
+                <h3>Imagen Local (Desde la computadora)</h3>
+                <p>Representación de un cartel antiguo de ofertas (Guardada en: `medios/oferta.jpg`).</p>
+                <img src="./medios/oferta.webp" alt="Antigua oferta de supermercado" class="media-item">
+                <p class="etiqueta-explicacion">Usamos: **`&lt;img src="./ruta/archivo.jpg"&gt;`**</p>
+            </div>
+        </section>
+
+        ---
+
+        <section id="audio">
+            <h2>🎧 Audio: Un Contexto Histórico</h2>
+            
+            <div class="media-container">
+                <h3>Audio desde la Web (URL)</h3>
+                <p>Clip de sonido que representa el bullicio de una multitud.</p>
+                <audio controls class="media-item-small">
+                    <source src="https://www.soundhelix.com/examples/mp3/SoundHelix-Song-1.mp3" type="audio/mp3">
+                    Tu navegador no soporta el elemento de audio.
+                </audio>
+                <p class="etiqueta-explicacion">Usamos: **`&lt;audio controls&gt;&lt;source src="URL"&gt;`**</p>
+            </div>
+            
+            <div class="media-container">
+                <h3>Audio Local (Desde la computadora)</h3>
+                <p>Grabación corta explicando la teoría de "Números Rojos a Números Negros" (Guardado en: `medios/explicacion.mp3`).</p>
+                <audio controls class="media-item-small">
+                    <source src="./medios/MujerLlorando.mp3.mp3" type="audio/mp3">
+                    Tu navegador no soporta el elemento de audio.
+                </audio>
+                <p class="etiqueta-explicacion">Usamos: **`&lt;audio controls&gt;&lt;source src="./ruta/archivo.mp3"&gt;`**</p>
+            </div>
+        </section>
+
+        ---
+
+        <section id="video">
+            <h2>🎬 Video: Escenas de Compras</h2>
+            
+            <div class="media-container">
+                <h3>Video desde la Web (URL)</h3>
+                <p>Un video de dominio público de un supermercado lleno de gente.</p>
+                <video controls width="100%" class="media-item">
+                    <source src="https://media.w3.org/2010/05/sintel/trailer.mp4" type="video/mp4">
+                    Tu navegador no soporta el elemento de video.
+                </video>
+                <p class="etiqueta-explicacion">Usamos: **`&lt;video controls&gt;&lt;source src="URL"&gt;`**</p>
+            </div>
+            
+            <div class="media-container">
+                <h3>Video Local (Desde la computadora)</h3>
+                <p>Un clip corto de un noticiero sobre ofertas (Guardado en: `medios/noticia.mp4`).</p>
+                <video controls width="100%" class="media-item">
+                    <source src="./medios/Tortuga.mp4" type="video/mp4">
+                    Tu navegador no soporta el elemento de video.
+                </video>
+                <p class="etiqueta-explicacion">Usamos: **`&lt;video controls&gt;&lt;source src="./ruta/archivo.mp4"&gt;`**</p>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; Módulo de Desarrollo Web. Práctica de HTML Multimedia y CSS.</p>
+    </footer>
+
+</body>
+</html>
